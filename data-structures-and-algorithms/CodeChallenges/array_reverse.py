@@ -8,8 +8,8 @@ Input	Output
 
 """
 
-def array_reverse(input_list):
+def reverse_array(input_list):
     return input_list[::-1]
 
-print(array_reverse([1, 2, 3, 4, 5, 6]))
-print(array_reverse([89, 2354, 3546, 23, 10, -923, 823, -12]))
+print(reverse_array([1, 2, 3, 4, 5, 6]))
+print(reverse_array([89, 2354, 3546, 23, 10, -923, 823, -12]))
